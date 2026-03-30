@@ -38,7 +38,6 @@ const ContactSection = () => {
         </motion.div>
 
         <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-5 gap-8">
-          {/* Info */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -52,7 +51,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="font-display font-semibold text-foreground">Email</p>
-                <p className="text-muted-foreground text-sm">contato@conectasoft.com.br</p>
+                <p className="text-muted-foreground text-sm">conecta.soft@gmail.com.br</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -61,7 +60,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="font-display font-semibold text-foreground">Telefone</p>
-                <p className="text-muted-foreground text-sm">(11) 99999-9999</p>
+                <p className="text-muted-foreground text-sm">(67) 3668-1567</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -70,12 +69,14 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="font-display font-semibold text-foreground">Localização</p>
-                <p className="text-muted-foreground text-sm">São Paulo, Brasil</p>
+                <p className="text-muted-foreground text-sm">
+                  R. Ângelo Melão, nº 790, Jd. das Paineiras<br />
+                  Três Lagoas/MS
+                </p>
               </div>
             </div>
           </motion.div>
 
-          {/* Form Card */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
